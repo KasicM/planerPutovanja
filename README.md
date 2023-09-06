@@ -6,7 +6,6 @@ This project is a web-based application for planning and organizing your trips. 
 
 ## Table of Contents
 - [Features](#features)
-- [Demo](#demo)
 - [Getting Started](#getting-started)
 
 
@@ -16,9 +15,6 @@ This project is a web-based application for planning and organizing your trips. 
 - **Itinerary Management**: Add and organize your trip activities and events.
 - **Android Native**: Created for android mobile devices.
 
-## Demo
-
-You can check out a live demo of the Travel Planner [here](#insert-demo-url).
 
 ## Getting Started
 
