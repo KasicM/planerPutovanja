@@ -23,3 +23,9 @@ To get a copy of this project up and running on your local machine, follow these
 1. **Clone the Repository**:
    ```sh
    git clone https://github.com/KasicM/planerPutovanja.git
+2. **Install required packages**:
+   ```sh
+   npm install
+3. **Run the application**:
+   ```sh
+   npx expo start
