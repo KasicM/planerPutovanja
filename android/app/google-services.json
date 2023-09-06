@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "173754354616",
+    "project_id": "planerputovanja-6870a",
+    "storage_bucket": "planerputovanja-6870a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:173754354616:android:437845f474bbbc22349d4d",
+        "android_client_info": {
+          "package_name": "com.kasicm.planerputovanja"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "173754354616-28co6vv3ci8pn31el47m5tvtib0723cu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKM6q4A4JayK6A0jrIVkBQC765PNFbrgs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "173754354616-28co6vv3ci8pn31el47m5tvtib0723cu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

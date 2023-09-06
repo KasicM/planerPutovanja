@@ -38,3 +38,7 @@ allprojects {
         maven { url 'https://www.jitpack.io' }
     }
 }
+
+plugins {
+    id 'com.google.gms.google-services' version '4.3.15' apply false
+}

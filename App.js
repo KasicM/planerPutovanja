@@ -1,21 +1,47 @@
-import { StatusBar } from 'expo-status-bar';
+// App.js
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import AddTravelScreen from './screens/AddTravelScreen';
+import TravelScreen from './screens/TravelScreen';
+import TravelDetailScreen from './screens/TravelDetailScreen';
+import { Button } from 'react-native';
 
-export default function App() {
+
+const Stack = createNativeStackNavigator();
+
+function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <NavigationContainer>
+      <Stack.Navigator
+        screenOptions={{
+          headerStyle: {
+            backgroundColor: '#621FF7',
+          },
+          headerTintColor: '#fff',
+          headerTitleStyle: {
+            fontWeight: 'bold',
+          },
+        }}
+      >
+        <Stack.Screen
+          name="TravelScreen"
+          component={TravelScreen}
+          options={{ title: 'Travel List' }}
+        />
+        <Stack.Screen
+          name="AddTravelScreen"
+          component={AddTravelScreen}
+          options={{ title: 'Add Travel' }}
+        />
+        <Stack.Screen
+          name="TravelDetailScreen"
+          component={TravelDetailScreen}
+          options={{ title: 'Travel Detail' }}
+        />
+      </Stack.Navigator>
+    </NavigationContainer>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default App;
