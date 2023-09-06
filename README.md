@@ -13,7 +13,7 @@ This project is a web-based application for planning and organizing your trips. 
 
 - **Trip Creation**: Create detailed travel plans with destination, dates, and notes.
 - **Itinerary Management**: Add and organize your trip activities and events.
-- **Android Native**: Created for android mobile devices.
+- **Android Native**: Created for Android mobile devices.
 
 
 ## Getting Started
